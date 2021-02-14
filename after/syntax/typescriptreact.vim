@@ -1,5 +1,5 @@
-if polyglot#init#is_disabled(expand('<sfile>:p'), 'jsx', 'after/syntax/typescriptreact.vim')
+if polyglot#init#is_disabled(expand('<sfile>:p'), 'jsx', 'after/syntax/javascriptreact.vim')
   finish
 endif
 
-source <sfile>:h/tsx.vim
+source <sfile>:h/jsx.vim
